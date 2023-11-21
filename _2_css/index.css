@@ -147,4 +147,44 @@ ul li:hover{
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 
+/* div_class_responsive */
 
+.div_class_responsive{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+    margin: 20px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    transition: 2s;
+    padding: 1%;
+}
+/* 468<=RS<=767 */
+@media(min-width: 768px) and (max-width: 980px){
+    .div_class_responsive{
+        width: 49%;
+    }
+}
+
+/* 981<=RS<=1199 */
+@media(min-width: 768px) and (max-width: 980px){
+    .div_class_responsive{
+        width: 32%;
+    }
+}
+
+/* =RS<=1200 */
+@media(min-width: 768px){
+    .div_class_responsive{
+        width: 24%;
+    }
+}
