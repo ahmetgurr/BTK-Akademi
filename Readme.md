@@ -1,6 +1,6 @@
 # BTK Akademi
 
-## Login and Register Screen 
+## Register and Login Page
 
 | Register Screen |  Login Screen |
 | ---------------------------- | ---------------------------- |
