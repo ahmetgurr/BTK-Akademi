@@ -1,15 +1,9 @@
 # BTK Akademi
 
----GitLab
-(Link)
->Girinti
->
+## Register and Login Page
 
-```
-sh```
-npm init
-npm install live-server
-npm install -g live-server
-nmp uninstall packageName
+| Register Screen |  Login Screen |
+| ---------------------------- | ---------------------------- |
+|![register](https://github.com/ahmetgurr/BTK-Akademi-Bootcamp/assets/92628011/b99158b2-59df-4ec2-8d44-2d1bcd43429b)|![login](https://github.com/ahmetgurr/BTK-Akademi-Bootcamp/assets/92628011/951d3f1c-d360-43e3-bc84-ec84d6ec9f44)|
 
-```
+</br>
