@@ -415,22 +415,169 @@ const arrayFunction3 = () => {
 
     // FOREACH
     // forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
-    arr.forEach((value, index, array)=>{
+    arr.forEach((value, index, array) => {
         document.writeln(index + " => " + value + " <br/>");
     });
 }
-arrayFunction3()
+// arrayFunction3()
 
+const arrayFunction4 = () => {
+    let arr = dataSet();
+
+    arr.push(44)
+    console.log(arr);
+
+    arr.unshift(23)
+    console.log(arr);
+
+    arr.pop()
+    console.log(arr);
+
+    arr.shift()
+    console.log(arr);
+
+    arr.sort();
+    console.log(arr);
+
+    arr.reverse()
+    console.log(arr);
+
+    arr.sort().reverse()
+    console.log(arr);
+
+    //to String
+    console.log(arr.toString());
+    console.log(arr.toString().substring(0, 4));
+
+    //to join
+    console.log(arr.join(" "));
+
+}
+// arrayFunction4 ()
+
+const arrayFunction5 = () => {
+    let arr = dataSet();
+    //console.log(arr);
+
+    // FOREACH
+    // forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
+    arr.forEach((value, index, array) => {
+        console.log(index + " => " + value + " <br/>");
+    });
+
+    console.log(" filter ");
+    arr.filter((value, index, array) => {
+        return value % 2 == 0;
+    }).forEach((value, index, array) => {
+        console.log(index + " => " + value + " <br/>");
+    })
+
+    console.log(" map ");
+    arr.map((value, index, array) => {
+        return value = value + 10;
+    }).forEach((value, index, array) => {
+        //  console.log(index + " => " + value + " <br/>");
+        console.log(`${index} => ${value} <br/>`);
+    })
+}
+//arrayFunction5()
 
 /////////////////////////////////////////////////////
 // object
-/////////////////////////////////////////////////////
-// dom
+const objectData = () => {
+    const password44 = prompt("Lütfen şifrenizi giriniz");
+
+    let person = {
+        "name": "Hamit",
+        "surname": "Mızrak",
+        "number": 44,
+        isLogin: true,
+        diller: ["java", "c#", "c++", "javascript", "php"],
+        addYear: function () {
+            console.log("Object in Function");
+        },
+        javascript: {
+            "name": "JavaScript",
+            "version": "12",
+            "date": "1995",
+        }
+    };
+    console.log(person);
+    console.log(person.name);
+    console.log(person["name"]);
+    console.log(person.surname);
+    console.log(person.surname.toUpperCase().substring(0, 3).concat("***"));
+    console.log(person.javascript.version);
+    console.log(person.addYear());
+    person.password = password44;
+    console.log(person.password);
+}
+//objectData()
+
 /////////////////////////////////////////////////////
 // event
-// Listener
+const event1 = () => {
+    alert("Event -1 çalıştı")
+}
+
+const event2 = () => {
+    alert("Event - çalıştı")
+}
+
+/////////////////////////////////////////////////////
+// d o m
+const dom_event = () => {
+    //alert("deneme")
+    const data = document.getElementById("parag_id");
+    document.getElementById("parag_id").innerHTML = "<b><i><mark>Merhabalar değişti.</mark></i></b>"
+    data.innerText = "Merhabalar değişti.";
+    data.style.color = "yellow";
+    data.style.backgroundColor = "black";
+    data.style.padding = "2rem";
+}
+
+/////////////////////////////////////////////////////
+// Add Event Listener
+const listener_data = () => {
+    const dom = document.getElementById("parag_id");
+    dom.addEventListener("click", (event) => {
+        alert("Paragraf okuması nasıl gidiyor-1 :) ")
+    });
+}
+listener_data()
+
+// const listener_data2=function(){
+//     const dom=document.getElementById("parag_id");
+//     dom.addEventListener("click",(event)=>{
+// alert("Paragraf okuması nasıl gidiyor-2 :) ")
+//     });
+// }
+// listener_data2()
+
+// (()=>{
+//     const dom=document.getElementById("parag_id");
+//     dom.addEventListener("click",(event)=>{
+// alert("Paragraf okuması nasıl gidiyor-3 :) ")
+//     });
+// })()
+
+/////////////////////////////////////////////////////
+// Local Storage
+const localStorageFunction=()=>{
+// setItem
+localStorage.setItem("unique_data","JS öğreniyorum");
+
+// getItem
+const data=localStorage.getItem("unique_data");
+//alert(data)
+// clear
+localStorage.clear()
+// removeItem
+}
+
+localStorageFunction();
 
 /////////////////////////////////////////////////////
 // GENEL BİR ÖRNEK:
-// Form Html5- css3 -Bootstrap- JS -jquery
 
+// Form Html5- css3 -Bootstrap- JS -jquery
