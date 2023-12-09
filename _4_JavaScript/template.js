@@ -44,9 +44,10 @@ multiple Comment
 // // --x
 
 // /////////////////////////////////////////////////////
-// // Hoisting
-// number=44;
-// var number;
+// // // Hoisting
+// // number=44;
+// // var number;
+
 
 // /////////////////////////////////////////////////////
 // // Prompt
@@ -377,6 +378,7 @@ const arrayFunction = () => {
 }
 //arrayFunction()
 
+
 const arrayFunction2 = () => {
     let arr = [5, 9, 3, 4, 8, 1, 7];
     arr[7] = 2;
@@ -580,4 +582,4 @@ localStorageFunction();
 /////////////////////////////////////////////////////
 // GENEL BİR ÖRNEK:
 
-// Form Html5- css3 -Bootstrap- JS -jquery
+// Form Html5- css3 -Bootstrap- JS -jquery  

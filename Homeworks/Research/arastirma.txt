@@ -1,0 +1,30 @@
+1-
+    <u>Kelimeler</u>
+    <ins>Kelimeler</ins>
+//bu ikisiinin farkı nedir
+== <ins>'in eklenen veya değiştirilen metni temsil etmek için kullanılmasıdır, ancak <u>'nun metni sadece anlamda vurgulamadır.
+
+2-
+unicode ile ascii karakteri aaştır arasındaki farklar nelerdir? 
+==ASCII karakter seti, yalnızca 128 karakteri temsil ederken, Unicode karakter seti milyonlarca karakteri temsil eder.
+ASCII karakter seti, yalnızca İngilizce dilinde kullanılan karakterleri temsil ederken, Unicode karakter seti dünya genelindeki tüm dillerde kullanılır.
+3-
+semantic - non semantic:
+
+semantic web sayfalarının anlam içeriğini ifade eder orneğin header baslıgı,  footer sayfanın alt bbilgilerini ifade eder. 
+non semantic ise bunların kullanılmadıgı durumlardır. div veya span bunlara ornek olablir içeriğin anlamını belirtmekten zıyade görunuse odaklanır.
+
+4-
+Rebase ve merge arasındaki farklar nelerdir?
+==Rebase işlemleri, diğer versiyon birleştirme yöntemi olan Merge'den farklı olarak, birleştirmeyi daha doğrusal ve kolay gerçekleştirebilir.
+
+5-Yarn ile Npm arasındaki farklar nelerdir ? 
+== NPM JavaScript için Yarn ise Facebook tarafından NPM'ye alternatif oalrak geliştirilmiştir.
+temel farklardan biri, bağımlılık yönetimini ele alma biçimleridir. NPM, bağımlılıkları düz bir yapıda kurar,
+ yani tüm bağımlılıklar tek bir node_modules dizinine kurulur. Öte yandan Yarn, bağımlılıkları yönetmek için "kilit dosyası" olarak bilinen daha verimli ve güvenilir bir yöntem kullanır ve bu, her bir bağımlılığın tam sürümünün yüklenmesini ve izlenmesini sağlar.
+yarn (Eş zamanlı) npm (tek zamanda tek iş )
+
+6-ikisi arasındaki farklar --save-dev ? 
+save      : canlı ortamlarda kullanmak
+save-dev  : test ortamlarında kullanılır.
+
