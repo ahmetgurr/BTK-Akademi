@@ -211,16 +211,16 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#about_id">
                                         {this.props.t('about')}
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#contact_id">
                                         {this.props.t('contact')}
                                     </a>
                                 </li>
-                                <li className="nav-item dropdown">
+                                {/* <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
                                         href="#"
@@ -231,13 +231,13 @@ class Header extends Component {
                                     >
                                         {t('languages')}
                                     </a>
-                                    <div className="dropdown-menu" aria-labelledby="dropdownId">
+                                     <div className="dropdown-menu" aria-labelledby="dropdownId">
                                         <OtherLanguageReusability />
-                                        {/* <a className="dropdown-item" href="#">
+                                         <a className="dropdown-item" href="#">
                                             Action 1
-                                        </a> */}
-                                    </div>
-                                </li>
+                                        </a> 
+                                    </div> 
+                                </li> */}
                             </ul>
 
                             {/* Dark Mode */}
@@ -286,6 +286,3 @@ Header.defaultProps = {
 // Header.propTypes = {
 //     url: PropTypes.string.isRequired,
 // }
-
-
-
