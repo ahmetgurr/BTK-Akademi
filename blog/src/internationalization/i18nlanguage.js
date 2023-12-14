@@ -14,6 +14,20 @@ i18n.use(initReactI18next).init({
                    'search':'Search',
                    'languages':'Languages',
                    'services':'Services',
+                   'register':'Register',
+                   'cleaner':'Cleaner',
+                   'added':'Added',
+                   'username':'Username',
+                   'surname':'Surname',
+                   'email':'Email Address',
+                   'password':'Password',
+                   'systemCreatedDate':'System Created Date',
+                   'update':'Update',
+                   'view':'View',
+                   'delete':'Delete',
+                   'register_list':"Register List",
+                   'register_update':"Register Update",
+                   'register_view':"Register View"
                 }
             },
         tr:
@@ -26,6 +40,21 @@ i18n.use(initReactI18next).init({
                    'search':'Arama',
                    'languages':'Diller',
                    'services':'Servisler',
+                   'cleaner':'Temizle',
+                   'added':'Ekle',
+                   'register':'Kayıt Ol',
+                   'username':'Kullanıcı Adı',
+                   'surname':'Kullanıcı Soyadı',
+                   'email':'Email Addres',
+                   'password':'Şifre',
+                   'systemCreatedDate':'Tarih',
+                   'update':'Güncelle',
+                   'view':'Göster',
+                   'delete':'Sil',
+                   'register_list':"Kayıt Listesi",
+                   'register_update':"Kayıt Güncelle",  
+                   'register_view':"Kayıtları Göster"
+                   
                 }
             }
     },
