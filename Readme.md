@@ -1,5 +1,8 @@
 # BTK Akademi
 
+This repository is created to add the projects developed during the BTK Academy Front-End Bootcamp. During the enjoyable period of 5 weeks from November 20th to December 22nd, organized by BTK Academy, we gained in-depth knowledge in HTML, CSS, Bootstrap, JavaScript, and React topics.
+</br>
+
 ## Register and Login Page
 
 | Register Screen |  Login Screen |
