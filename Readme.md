@@ -11,7 +11,7 @@ This repository is created to add the projects developed during the [@BTKAkademi
 
 </br>
 
-## Home Page Light & Dark
+## Graduation Project View 
 
 | Home Page Light |
 | ---------------------------- |
